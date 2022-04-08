@@ -1,0 +1,36 @@
+.long-spacer {
+  aspect-ratio: 960/300;
+}
+
+.fullscreen-spacer {
+  aspect-ratio: 960/540;
+}
+
+.layer1 {
+  background-image: url("./assets/layered-waves-haikei.svg");
+}
+
+.layer2 {
+  background-image: url("./assets/layered-waves-haikei-2.svg");
+}
+
+.layer3 {
+  background-image: url("./assets/stacked-steps-haikei.svg");
+}
+
+.layer4 {
+  background-image: url("./assets/layered-peaks-haikei.svg");
+}
+
+.spacer {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.content.is-vcentered {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
