@@ -39,14 +39,14 @@ export default function Contact(params) {
                   <div class="column is-6">
                     <input
                       class="input is-medium is-info is-rounded"
-                      type="text"
+                      type="email"
                       placeholder="Email *"
                     />
                   </div>
                   <div class="column is-6">
                     <input
                       class="input is-medium is-info is-rounded"
-                      type="email"
+                      type="text"
                       placeholder="Occupation"
                     />
                   </div>
